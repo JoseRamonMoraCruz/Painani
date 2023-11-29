@@ -1,0 +1,37 @@
+<resources>
+    <string name="facebook_app_id">347910691078894</string>
+
+    <string name="app_name">Painiani</string>
+    <string name="Bienvenido">Bienvenido a \npainani </string>
+    <string name="google">Inicia Sesion con Google</string>
+    <string name="lineas">_____________________________________________</string>
+    <string name="registro">Creación \nde \nCredenciales</string>
+    <string name="texto01">Inicia Sesión</string>
+    <string name="texto02">Titulo</string>
+    <string name="texto03">Descripcion Noticia</string>
+    <string name="texto04">Agrega una Noticia</string>
+    <string name="texto05">Recuperar Credencial</string>
+    <string name="boton01">Ingresar</string>
+    <string name="boton02">Olvide mi contraseña</string>
+    <string name="boton03">Registrate gratis</string>
+    <string name="boton04">Registrar</string>
+    <string name="boton05">Ya estoy registrado</string>
+    <string name="boton06">Cerrar sesion</string>
+    <string name="boton07">Recuperar Password</string>
+    <string name="boton08">Regresar</string>
+    <string name="boton09">Comprar</string>
+    <string name="boton10">Finalizar Comprar</string>
+    <string name="boton11">Agregar Noticia</string>
+    <string name="boton12">Añade una foto</string>
+    <string name="boton13">Subir publicación</string>
+    <string name="boton15">Cancelar</string>
+    <string name="boton16">Camara</string>
+    <string name="hint01">Correo Electronico</string>
+    <string name="hint02">Contraseña</string>
+    <string name="hint03">Nombre</string>
+    <string name="hint04">Apellido Paterno</string>
+    <string name="hint05">Apellido Materno</string>
+    <string name="hint06">Titulo de publicación</string>
+    <string name="hint07">Descripción de publicación</string>
+
+</resources>

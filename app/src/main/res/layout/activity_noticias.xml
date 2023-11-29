@@ -1,0 +1,51 @@
+ <ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="30dp"
+    android:background="#0C4063"
+    tools:context=".Noticias">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/AgregarNoticia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="end"
+            android:src="@android:drawable/ic_input_add"
+            android:backgroundTint="#D17FDF">
+
+        </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvNoticias"
+            android:layout_width="405dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            tools:listitem="@layout/card_noticia"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"/>
+
+        <Button
+            android:id="@+id/cerrarSesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boton06"
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="200dp"
+            android:backgroundTint="@color/red_c3"/>
+
+    </LinearLayout>
+
+</ScrollView>

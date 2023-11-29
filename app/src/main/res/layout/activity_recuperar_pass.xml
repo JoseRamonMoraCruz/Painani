@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    android:background="@drawable/fondodegradado"
+    tools:context=".RecuperarPass">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/texto05"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="40dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/email_recuperar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="@string/hint01"
+            app:boxStrokeColor="@color/bordecolor"
+            app:hintTextColor="@color/white"
+            android:layout_marginTop="100dp"
+            app:boxCornerRadiusBottomEnd="20dp"
+            app:boxCornerRadiusBottomStart="20dp"
+            app:boxCornerRadiusTopEnd="20dp"
+            app:boxCornerRadiusTopStart="20dp"
+            android:textColorHint="@color/whiteOpaco">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnRecuperarPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boton07"
+            android:textAllCaps="true"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/img_pass"
+            android:backgroundTint="@color/Azulturquesa19"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
